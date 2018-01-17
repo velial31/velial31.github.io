@@ -2,6 +2,15 @@
 	margin:0;
 	padding: 0;
 	font-family: "Montserrat";
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+html, body {
+	overflow-x: hidden;
 }
 
 .wrapper {
@@ -136,6 +145,7 @@ header a:last-child {
 	margin-top: 70px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	
 }
 
@@ -195,6 +205,7 @@ header a:last-child {
 	margin-top: 75px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .s-3-wrap p {
@@ -206,6 +217,7 @@ header a:last-child {
 	
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	
 	
 }
@@ -236,7 +248,7 @@ header a:last-child {
 	overflow: hidden;
 }
 .photo img {
-	left: -20px;
+	
 	position: absolute;
 }
 
@@ -281,9 +293,14 @@ header a:last-child {
 .s-4-item {
 	position: relative;
 	overflow: hidden;
-	background-color: orange;
+	
 	height: 320px;
 	width: 365px;
+	text-align: center;
+}
+
+.s-4-item img {
+ 	position: relative;
 }
 
 
@@ -553,6 +570,8 @@ td, tr {
 input {
 	width: 365px;
 	height: 42px;
+	padding: 0 5px;
+
 }
 .send {
 	width: 780px;
@@ -580,28 +599,28 @@ input::-webkit-input-placeholder {
 	text-transform: uppercase;
 	font-family: "Roboto Slab";
 	font-size: 14PX;
-	padding: 0 5px;
+	
 }
  
 input:-moz-placeholder { 
 text-transform: uppercase;
 font-family: "Roboto Slab";
 font-size: 14PX;
-padding: 0 5px;
+
 }
  
 input::-moz-placeholder {  
 text-transform: uppercase; 
 font-family: "Roboto Slab";
 font-size: 14PX;
-padding: 0 5px;
+
 }
  
 input:-ms-input-placeholder {  
 text-transform: uppercase; 
 font-family: "Roboto Slab";
 font-size: 14PX;
-padding: 0 5px;
+
 }
 
 
@@ -631,4 +650,236 @@ footer p {
 	font-size: 15px;
 	color: white;
 	
+}
+
+@media(min-width: 0) and (max-width: 500px) {
+
+	.section-1 {
+		height: 500px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	header {
+		display: block;
+		text-align: center;
+	}
+
+
+
+	.s-1-content {
+		text-align: center;
+		margin-top: 0;
+	}
+	.s-1-content h1 {
+		font-size: 35px;
+		letter-spacing: 1px;
+	}
+	.s-1-content p {
+		font-size: 20px;
+	}
+	
+	.title-description {
+		text-align: center;
+		font-size: 15px;
+		padding: 0 50px;
+		width: 280px;
+		margin: 0 auto;
+
+
+	}
+
+
+	.section-2 {
+		height: 1000px;
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.s-2-wrap {
+		margin-top: 0;
+	}
+
+	.s-2-img-wrap {
+		margin-top: 15px;
+	}
+
+	.s-2-item p {
+		font-size: 15px;
+		padding: 0 15px;
+	}
+	
+
+	.section-3 {
+		height: auto;
+		
+	}
+
+	.s-3-wrap p {
+		padding: 0 15px 15px 15px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.s-3-item  {
+		height: auto;
+		margin: 0 auto;
+		padding: 15px 0;
+	}
+
+	.s-3-item h3 {
+
+		padding: 5px 0;
+	}
+
+	.photo {
+		height: 200px;
+		width: 200px;
+	}
+
+	.s-3-wrap1 {
+		padding: 0 0 50px 0;
+	}
+
+
+	.section-4, .section-4 .wrapper, .s-4-wrap {
+		height: auto;
+	}
+	
+	.s-4-menu {
+		display: none;
+	}
+
+	.s-4-item {
+		margin: 0 auto;
+		height: 240px;
+		width: 285px;
+		padding: 25px 10px;
+	}
+
+	.s-4-wrap {
+		padding-bottom: 100px;
+	}
+
+	.s-5-content {
+		text-align: center;
+	}
+
+	.s-5-content p {
+		font-size: 25px;
+		padding: 0 15px;
+	}
+	
+	.s-6-item img {
+		display: none;
+	}
+	.s-6-text {
+		margin: 0 auto;
+		width: 280px;
+		
+
+	}
+
+	.s-6-text table  {
+		width: auto;
+
+	}
+
+	.section-7, .wrapper-7 {
+		height: auto;
+	}
+
+	.wrapper-7 {
+		padding: 100px 0;
+	}
+
+	.s-7-img-wrap {
+		width: 350px;
+	}
+
+	.s-7-img-wrap img {
+		padding: 10px;
+	}
+
+	
+
+	.s-7-text {
+		width: 300px;
+		padding: 0 15px 15px 15px;
+		font-size: 15px;
+	}
+
+
+	.section-8, .wrapper-8, .s-8-wrap {
+		height: auto;
+
+	}
+
+	.s-8-wrap {
+		width: auto;
+	}
+
+
+	.wrapper-8 {
+		padding: 100px 0;
+	}
+	
+	.send {
+		margin: 0 auto;
+	}
+
+
+	.send table {
+		width: 280px;
+		margin: 0 auto;
+
+
+	}
+
+	.send table tr, td{
+		
+	}
+
+	.contact {
+		display: none;
+		
+	}
+	
+	input {
+		width: 130px;
+		height: 50px;
+	}
+
+	textarea {
+		width: 275px;
+	}
+
+	footer {
+		height: 200px;
+	}
+
+}
+
+
+@media screen and (orientation:landscape) and (max-device-width: 900px) {
+    html{
+        -webkit-transform: rotate(-90deg);
+           -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+             -o-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+        -webkit-transform-origin: left top;
+           -moz-transform-origin: left top;
+            -ms-transform-origin: left top;
+             -o-transform-origin: left top;
+                transform-origin: left top;
+        width: 320px; /*Разрешение экрана iPhone*/
+        position: absolute;
+        top: 100%;
+            left: 0
+    }
 }
