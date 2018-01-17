@@ -652,7 +652,7 @@ footer p {
 	
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-device-width: 800px) {
 
 .section-1 {
 		height: 500px;
