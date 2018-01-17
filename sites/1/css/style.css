@@ -862,6 +862,35 @@ footer p {
 		height: 200px;
 	}
 
+
+	input::-webkit-input-placeholder {
+	text-transform: uppercase;
+	font-family: "Roboto Slab";
+	font-size: 12PX;
+	
+}
+ 
+input:-moz-placeholder { 
+text-transform: uppercase;
+font-family: "Roboto Slab";
+font-size: 12PX;
+
+}
+ 
+input::-moz-placeholder {  
+text-transform: uppercase; 
+font-family: "Roboto Slab";
+font-size: 12PX;
+
+}
+ 
+input:-ms-input-placeholder {  
+text-transform: uppercase; 
+font-family: "Roboto Slab";
+font-size: 12PX;
+
+}
+
 }
 
 
