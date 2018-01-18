@@ -1,8 +1,8 @@
 #field {
 	margin: 0 auto;
 	background-color: yellow;
-	width: 607px;
-	height: 1080px;
+	width: 960px;
+	height: 960px;
 	position: relative;
 }
 
@@ -11,8 +11,8 @@
 	top:0;
 	left: 0;
 	position: absolute;
-	width: 607px;
-	height: 1080px;
+	width: 960px;
+	height: 960px;
 	overflow: hidden;
 }
 
