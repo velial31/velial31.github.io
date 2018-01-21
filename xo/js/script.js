@@ -36,7 +36,8 @@ function check() {
 			block[0].innerHTML == x && block[4].innerHTML == x && block[8].innerHTML == x ||
 			block[2].innerHTML == x && block[4].innerHTML == x && block[6].innerHTML == x ||
 			block[2].innerHTML == x && block[5].innerHTML == x && block[8].innerHTML == x ||
-			block[0].innerHTML == x && block[3].innerHTML == x && block[6].innerHTML == x) 
+			block[0].innerHTML == x && block[3].innerHTML == x && block[6].innerHTML == x ||
+			block[1].innerHTML == x && block[4].innerHTML == x && block[7].innerHTML == x) 
 		{
 			alert("Победили крестики!");
 		}
@@ -47,7 +48,8 @@ function check() {
 			block[0].innerHTML == o && block[4].innerHTML == o && block[8].innerHTML == o ||
 			block[2].innerHTML == o && block[4].innerHTML == o && block[6].innerHTML == o ||
 			block[2].innerHTML == o && block[5].innerHTML == o && block[8].innerHTML == o ||
-			block[0].innerHTML == o && block[3].innerHTML == o && block[6].innerHTML == o) 
+			block[0].innerHTML == o && block[3].innerHTML == o && block[6].innerHTML == o ||
+			block[1].innerHTML == o && block[4].innerHTML == o && block[7].innerHTML == o) 
 		{
 			alert("Победили нолики!");
 		}
