@@ -1,0 +1,42 @@
+* {
+	font-family: "Roboto Slab";
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
+.wrap {
+	margin: 0 auto;
+	height: 350px;
+	width: 500px;
+	background-color: orange;
+	text-align: center;
+	border: 5px solid grey;
+	border-radius: 10%;
+	
+}
+
+input {
+	
+	
+	width: 300px;
+	margin-top: 10px;
+
+	
+}
+
+
+
+.name {
+	display: block;
+	padding: 15px;
+}
+
+.sum-w {
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
