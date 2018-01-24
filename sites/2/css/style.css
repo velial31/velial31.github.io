@@ -209,7 +209,18 @@ label {
 
 
 @media screen and (max-width: 768px) {
+
+
+	.main-text h1 {
+	font-size: 70px;
+
+	}
+
+	.main-text p {
+	font-size: 18px;
+	padding: 0 10px;
 	
+	}
 	.main-text h1:after {
 	content: "";
 	display: block;
@@ -224,6 +235,9 @@ label {
 	width: 320px !important;
 	margin-left: 0;
 }
+
+
+
 
 }
 
