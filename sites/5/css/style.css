@@ -46,14 +46,14 @@ color: #767676;
 
 }
 
-.topnav {
+.navbar {
 	height: 80px;
 	background-color: #777777;
 
 }
 
 .topnav-menu {
-	margin: 0;
+	margin: 0 auto;
 	padding-left:0;
 	display: flex;
 	list-style: none;
@@ -463,8 +463,17 @@ label {
 
 
 
-	.topnav {
+	.navbar {
+		
 		height: auto;
+
+	}
+
+	.navbar-toggler {
+		display: block;
+		float: right;
+
+		
 	}
 
 	.topnav-menu {
@@ -473,8 +482,9 @@ label {
 	}
 
 	.topnav-menu li {
-		margin: 0;
-		font-size: 18px;
+		margin: 10px;
+		font-size: 22px;
+		overflow-y: hidden;
 	}
 
 	.topnav-menu li:after {
