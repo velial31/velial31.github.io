@@ -446,17 +446,23 @@ label {
 	/*Header*/
 	
 	.header-wrap {
-		height: 500px;
+		padding: 20px 0;
+		height: auto;
 		text-align: center;
 	}
 
-	.name {
+	.name, .contact, .number {
 		overflow-y: hidden;
 	}
 
+	.contact {
+		height: 180px;
+	}
+
+
 	.number {
 		font-size: 18px;
-		overflow-y: hidden;
+		
 	}
 
 
@@ -520,6 +526,14 @@ label {
 
 	.slider img {
 		width: 100%;
+	}
+
+	.slick-arrow {
+
+	height: 30px;
+	width: 17px;
+	-webkit-background-size: cover;
+	background-size: cover;
 	}
 
 	.slick-next {
@@ -589,16 +603,28 @@ label {
 	/*Modal*/
 
 	.modal-content {
-		margin: 0 auto;
+		margin: 50px auto;
 		height: auto;
-		width: 300px;
+		width: 280px;
+		overflow-y: visible;
+		overflow-x: visible;
+		
 	}
+
+	
 
 	.modal-body input, .modal-body textarea {
 	
-	max-width: 250px;
+	max-width: 240px;
 	
 }
+
+	.modal-close {
+		position: absolute;
+		top: -27px;
+		right:-27px;
+		
+	}
 
 
 
