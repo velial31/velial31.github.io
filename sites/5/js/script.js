@@ -14,3 +14,10 @@ $(document).ready(function(){
   });
 });
 
+
+
+ jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu();
+         });
+
+

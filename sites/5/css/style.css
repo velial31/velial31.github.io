@@ -298,6 +298,7 @@ hr {
 	color: #777777;
 	width: 780px;
 	margin-top: 55px;
+	height: 1px;
 	padding: 0;
 	margin: 0;
 }
@@ -435,4 +436,171 @@ label {
 	outline: none;
 }
 
+
+@media (max-width: 800px) {
+
+	* {
+		overflow-x: hidden;
+	}
+
+	/*Header*/
+	
+	.header-wrap {
+		height: 500px;
+		text-align: center;
+	}
+
+	.name {
+		overflow-y: hidden;
+	}
+
+	.number {
+		font-size: 18px;
+	}
+
+
+	/*Topnav*/
+
+
+
+	.topnav {
+		height: auto;
+	}
+
+	.topnav-menu {
+		display: block;
+		text-align: center;
+	}
+
+	.topnav-menu li {
+		margin: 0;
+		font-size: 18px;
+	}
+
+	.topnav-menu li:after {
+		content: '';
+	}
+
+
+
+	/*Sidebar*/
+
+	.breadcrumb {
+		display: none;
+	}
+
+	.price-list {
+		display: none;
+	}
+
+	.nav {
+		height: auto;
+		
+	}
+
+
+	/*Slider*/
+
+
+	.slider {
+		width: 100%;
+
+	}
+
+	.slider img {
+		width: 100%;
+	}
+
+	.slick-next {
+	
+	right: 10%;
+
+}
+
+	.slick-prev {
+	
+	left: 10%;
+
+}
+
+
+
+
+
+
+
+
+	/*Items*/
+
+	.item {
+		margin: 20px auto;
+	}
+
+	.pagination {
+		margin: 0 auto;
+	}
+
+	
+
+	hr {
+		margin: 20px auto;
+		text-align: center;
+		width: 250px;
+
+	}
+
+	.about-1, .about-2 {
+		margin: 0 auto;
+		width: 250px;
+
+	}
+
+
+	/*Footer*/
+
+	.footer {
+		margin-top: 0;
+		padding: 20px 0;
+		height: auto;
+		text-align: center;
+	}
+
+	.footer-menu {
+		padding: 0;
+	}
+
+	 .dev {
+
+		margin: 0 auto;
+	}
+
+
+	/*Modal*/
+
+	.modal-content {
+		margin: 0 auto;
+		height: auto;
+		width: 300px;
+	}
+
+	.modal-body input, .modal-body textarea {
+	
+	max-width: 250px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
