@@ -1,0 +1,304 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.no-margin {
+	margin:0;
+	padding: 0;
+}
+
+
+
+/*Header*/
+
+.header-top {
+	background-color: #3D3D3D;
+	height: 45px;
+	border-bottom: 5px solid #C60000;
+}
+
+.header-top a {
+
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.header-top a:hover {
+	text-decoration: none;
+}
+
+.header-main {
+	background: #FFFFFF;
+	height: 130px;
+}
+.header-main a:last-child {
+	margin-left: 20px;
+}
+
+
+/*Navigation*/
+
+.topnav {
+	background: #E1E1E1;
+	height: 64px;
+	
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin:0;
+	height: 100%;
+	overflow-x: visible;
+}
+
+.menu li {
+	margin-left: 23px;
+	height: 100%;
+	position: relative;
+	text-align: center;
+
+}
+
+.menu li:first-child {
+	margin-left: 0;
+}
+
+.menu li:hover:after {
+	position: absolute;
+	content: url(../img/hover.png);
+	display: block;
+	left: 12%;
+}
+
+.menu li:nth-child(3) {
+	width: 70px;
+}
+
+.menu a {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #696969;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+
+
+/*Main*/
+
+
+.main {
+	position: relative;
+}
+.main p {
+	max-width: 674px;
+	background: rgba(255, 59, 59, 0.55);
+	color: #ffffff;
+	font-size: 36px;
+	position: absolute;
+	top: 115px;
+	left: 0;
+	font-weight: 300;
+	padding-left: 40px;
+	padding-right: 15px;
+}
+
+.main p span{
+	font-weight: 700;
+}
+
+.btn {
+	padding: 20px;
+	position: absolute;
+	top: 352px;
+	left: 106px;
+	background: #DE0000;
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+
+/*Education*/
+
+
+.title {
+	height: 80px;
+	border-bottom: 1px solid #960000;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #960000;
+	font-weight: 300;
+}
+
+.box {
+	margin-top: 15px;
+	width: 324px;
+	background-color: #ffe5e5;
+	margin-left: 22px;
+	margin-bottom: 50px;
+
+}
+
+
+.box:first-child {
+	margin-left: 0;
+}
+
+.box h3 {
+	font-size: 14px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 27px;
+
+	padding-left: 58px;
+	padding-right: 15px;
+}
+
+.box p {
+	font-size: 12px;
+	padding-left: 58px;
+	padding-right: 15px;
+}
+
+/*About*/
+
+
+.about-box {
+	width: 263px;
+	background-color: #ffe5e5;
+	color: #FF1A1A;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	
+}
+
+.about-box h3 {
+	font-size: 72px;
+	padding: 0;
+	margin:0;
+}
+
+.about-box p {
+	font-size: 24px;
+	padding: 0;
+	margin:0;
+
+}
+
+.number {
+	border: 1px solid #F52525;
+	width: 100%;
+	margin: 5px 0;
+}
+
+
+@media (max-width: 780px) {
+
+
+	*, body {
+	overflow-x: hidden;
+}
+	
+	.header-main, .topnav, .header-top {
+		height: auto;
+	}
+
+	.logo, .social, .about-box  {
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.logo img {
+		height: 37px;
+		width: 206px;
+	}
+
+	.about, .contact {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.collapse, nav {
+		width: 100%;
+	}
+
+	.menu, .menu li {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.menu li {
+		text-align: center;
+	}
+
+	.menu li:nth-child(3) {
+	width: auto;
+}
+
+
+	.main {
+		height: auto;
+		overflow-y:hidden;
+	}
+
+	.main img {
+		width: 100%;
+	}
+
+	.title {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.title .col-sm-12 {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.box {
+		width: 263px;
+	}
+
+	.main p {
+		width:280px;
+		font-size: 20px;
+		left: 37%;
+		
+		
+	}
+
+
+	.btn {
+		left: 40%;
+		font-size: 20px;
+			}
+
+	.title h1 {
+		font-size: 40px;
+	}
+
+
+}
